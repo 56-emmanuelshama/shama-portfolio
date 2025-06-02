@@ -1,0 +1,77 @@
+.logo {
+    margin-left: 10px;
+    display: flex;
+    padding: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: rgb(160, 224, 203);
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    margin: auto;
+   
+}
+.link > a {
+    text-decoration: none;
+    font-size: 2rem;
+    justify-content: space-between;
+    margin: 20px;
+   
+   
+}
+.link > button {
+   font-size: 20px;
+   padding: 20px;
+   border: 2px solid black;
+   border-radius: 50px;
+  margin: 20px;
+  cursor: pointer;
+}
+.link  :hover {
+    color: rgb(2, 2, 223);
+}
+.lessonOne {
+    border: 5px solid black;
+    margin: 20px;
+    padding: 90px;
+}
+.img {
+    display: flex;
+
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.first {
+    font-size: 2rem;
+    text-align: center;
+}
+.home {
+    display: flex;
+    margin: 20px;
+ 
+}
+.home p{
+    width: 100%;
+    margin-top: 350px;
+    margin-right: 1500px;
+    
+}
+footer {
+    border: 2px solid black;
+    background-color: rgb(35, 35, 36);
+    padding: 20px;
+
+}
+.manu p,h2 {
+    color: bisque;
+}
+.manu p {
+    font-size: 2rem;
+}
